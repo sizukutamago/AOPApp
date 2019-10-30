@@ -9,8 +9,4 @@
                              http://www.springframework.org/schema/aop/spring-aop.xsd
                              http://www.springframework.org/schema/context
                              http://www.springframework.org/schema/context/spring-context.xsd">
-
-    <aop:aspectj-autoproxy/>
-    <bean id="bean1" class="com.aop.MyBean1"/>
-    <bean id="aop1" class="com.aop.MyBeanAspect"/>
 </beans>
